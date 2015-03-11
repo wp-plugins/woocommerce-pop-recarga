@@ -14,7 +14,7 @@ Offer the Pop Recarga Payments WooCommerce plugin as online payment option.
 If you need a new payment method for your website, InDPV offers you the possibility to add POP option for online payment for those that does not have a bank account or credit card. They can purchase credits through points of sale and use this credits in your website. They can purchase credits through points of sale and use this credits in your website. 
 
 **Descrição em Português**
-Se você precisa de uma nova forma de pagamento para seu website, o InPDV lhe oferece a possibilidade de adicionar a opção POP para como forma de pagamento online para aqueles que não possuem conta bancã�ria ou cartão de crédito. Eles poderão comprar créditos através de diversos pontos de venda e usar estes créditos em seu website. 
+Se você precisa de uma nova forma de pagamento para seu website, o InPDV lhe oferece a possibilidade de adicionar a opção POP para como forma de pagamento online para aqueles que não possuem conta bancária ou cartão de crédito. Eles poderão comprar créditos através de diversos pontos de venda e usar estes créditos em seu website. 
 
 
 == Installation ==
@@ -34,20 +34,20 @@ To use this checkout you need to be authenticated on our platform. Request your 
 **No seu WordPress dashboard:**
 1. Acesse 'Plugins > Adicionar Novo'
 1. Pesquise por 'POP Recarga'
-1. Ative o POP Recarga na sua pã�gina de Plugins.
+1. Ative o POP Recarga na sua página de Plugins.
 
 **No WordPress.org:**
 1. Baixe o POP Recarga.
 1. Faça o upload do arquivo 'POP Recarga' para seu diretório '/wp-content/plugins/'.
-1. Ative o POP Recarga na sua pã�gina de Plugins.
+1. Ative o POP Recarga na sua página de Plugins.
 
 **Requerimentos:**
-* é necessã�rio possuir uma conta no POP Recarga e efetuar a instalação do WooCommerce.
+* é necessário possuir uma conta no POP Recarga e efetuar a instalação do WooCommerce.
 
-**Configuraçã�es**
-1. Acesse 'WooCommerce > Configuraçã�es > Finalizar Compra".
+**Configurações**
+1. Acesse 'WooCommerce > Configurações > Finalizar Compra".
 1. Escolha a forma de pagamento 'POP Payments'.
-1. Preencha todas as informaçã�es.
+1. Preencha todas as informações.
 1. Utilize o Gateway Mode como 'SandBox' para efetuar testes.
 
 == Frequently Asked Questions ==
@@ -63,12 +63,12 @@ Every purchase, a validation code will be sent to phone number registered and yo
 **FAQ em Português:**
 
 = Como obter meu client_id e client_secret? =
-Vã� para http://www.poprecarga.com.br e preencha seus dados para se tornar um parceiro.
-Entraremos em contato. Após avaliação, enviaremos os campos necessã�rios.
+Vá para http://www.poprecarga.com.br e preencha seus dados para se tornar um parceiro.
+Entraremos em contato. Após avaliação, enviaremos os campos necessários.
 
 = Meus clientes precisam ter cartão de crédito? =
-Não. Para usar a conta do POP seus clientes precisarão somente de um aparelho celular e, quando necessã�rio, inserir o número de telefone.
-A cada compra, um código de validação serã� enviado para o número de telefone registrado e seus clientes devem confirmar o recebimento deste código.
+Não. Para usar a conta do POP seus clientes precisarão somente de um aparelho celular e, quando necessário, inserir o número de telefone.
+A cada compra, um código de validação será enviado para o número de telefone registrado e seus clientes devem confirmar o recebimento deste código.
 
 == Screenshots ==
 1. `/assets/screenshot1.png`
