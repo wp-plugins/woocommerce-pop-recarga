@@ -27,25 +27,31 @@ To use this checkout you need to be authenticated on our platform. Request your 
 - Activate POP Recarga from your Plugins page.
 
 **From WordPress.org:**
+
 - Download POP Recarga.
 - Upload the 'POP Recarga' directory to your '/wp-content/plugins/' directory.
 - Activate POP Recarga from your Plugins page. 
 
 **Instalação e configuração em Português:**
+
 **No seu WordPress dashboard:**
+
 - Acesse 'Plugins > Adicionar Novo'
 - Pesquise por 'POP Recarga'
 - Ative o POP Recarga na sua página de Plugins.
 
 **No WordPress.org:**
+
 - Baixe o POP Recarga.
 - Faça o upload do arquivo 'POP Recarga' para seu diretório '/wp-content/plugins/'.
 - Ative o POP Recarga na sua página de Plugins.
 
 **Requerimentos:**
-* é necessário possuir uma conta no POP Recarga e efetuar a instalação do WooCommerce.
+
+* é necessário possuir uma conta no POP Recarga e efetuar a instalação do WooCommerce. *
 
 **Configurações**
+
 - Acesse 'WooCommerce > Configurações > Finalizar Compra".
 - Escolha a forma de pagamento 'POP Payments'.
 - Preencha todas as informações.
@@ -72,7 +78,8 @@ Não. Para usar a conta do POP seus clientes precisarão somente de um aparelho 
 A cada compra, um código de validação será enviado para o número de telefone registrado e seus clientes devem confirmar o recebimento deste código.
 
 == Screenshots ==
-`/assets/screenshot1.png`
+
+1. Configurações
 
 == Changelog ==
 
