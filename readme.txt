@@ -21,9 +21,10 @@ Se você precisa de uma nova forma de pagamento para seu website, o InPDV lhe of
 To use this checkout you need to be authenticated on our platform. Request your client_id and client_secret.
 
 **From your WordPress dashboard:**
-1. Visit 'Plugins > Add New'
-1. Search for 'POP Recarga'
-1. Activate POP Recarga from your Plugins page.
+
+- Visit 'Plugins > Add New'
+- Search for 'POP Recarga'
+- Activate POP Recarga from your Plugins page.
 
 **From WordPress.org:**
 1. Download POP Recarga.
