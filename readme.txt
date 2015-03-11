@@ -77,3 +77,8 @@ A cada compra, um código de validação será enviado para o número de telefon
 
 = 1.0 - 2015/03/11 = 
 * Publish first version of Pop Recarga plugin to WooCommerce.
+
+== Upgrade Notice ==
+
+= 1.0 =
+The first version of Pop Recarga plugin to WooCommerce.
