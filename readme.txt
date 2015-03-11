@@ -1,7 +1,9 @@
+<meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
+
 === Plugin Name ===
-Contributors: Sergio Passos,InPDV,Take.net
+Contributors: Sergio Passos
 Donate link: http://www.poprecarga.com.br/
-Tags: pop,recharge,inpdv,payment,online,bank,debit,credit,buy,shop,sale,checkout,woocommerce
+Tags: pop,por recarga,inpdv,mobile payment,payments,woocommerce
 Requires at least: 3.0.1
 Tested up to: 3.4
 Stable tag: 4.3
@@ -71,7 +73,7 @@ Não. Para usar a conta do POP seus clientes precisarão somente de um aparelho ce
 A cada compra, um código de validação será enviado para o número de telefone registrado e seus clientes devem confirmar o recebimento deste código.
 
 == Screenshots ==
-/assets/screenshot1.png
+1. `/assets/screenshot1.png`
 
 == Changelog ==
 
