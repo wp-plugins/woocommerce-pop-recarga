@@ -13,8 +13,8 @@ Offer the Pop Recarga Payments WooCommerce plugin as online payment option.
 == Description ==
 If you need a new payment method for your website, InDPV offers you the possibility to add POP option for online payment for those that does not have a bank account or credit card. They can purchase credits through points of sale and use this credits in your website. They can purchase credits through points of sale and use this credits in your website. 
 
-**Descrição em PortuguÃªs**
-Se você precisa de uma nova forma de pagamento para seu website, o InPDV lhe oferece a possibilidade de adicionar a opção POP para como forma de pagamento online para aqueles que não possuem conta bancária ou cartão de crédito. Eles poderão comprar créditos através de diversos pontos de venda e usar estes créditos em seu website. 
+**DescriÃ£§Ã£o em PortuguÃ£ªs**
+Se vocÃ£ª precisa de uma nova forma de pagamento para seu website, o InPDV lhe oferece a possibilidade de adicionar a opÃ£§Ã£o POP para como forma de pagamento online para aqueles que nÃ£o possuem conta bancÃ£¡ria ou cartÃ£o de crÃ©dito. Eles poderÃ£o comprar crÃ©ditos atravÃ©s de diversos pontos de venda e usar estes crÃ©ditos em seu website. 
 
 
 == Installation ==
@@ -30,24 +30,24 @@ To use this checkout you need to be authenticated on our platform. Request your 
 1. Upload the 'POP Recarga' directory to your '/wp-content/plugins/' directory.
 1. Activate POP Recarga from your Plugins page. 
 
-**Instalação e configuração em PortuguÃªs:**
+**InstalaÃ£§Ã£o e configuraÃ£§Ã£o em PortuguÃ£ªs:**
 **No seu WordPress dashboard:**
 1. Acesse 'Plugins > Adicionar Novo'
 1. Pesquise por 'POP Recarga'
-1. Ative o POP Recarga na sua página de Plugins.
+1. Ative o POP Recarga na sua pÃ£¡gina de Plugins.
 
 **No WordPress.org:**
 1. Baixe o POP Recarga.
-1. Faça o upload do arquivo 'POP Recarga' para seu diretório '/wp-content/plugins/'.
-1. Ative o POP Recarga na sua página de Plugins.
+1. FaÃ£§a o upload do arquivo 'POP Recarga' para seu diretÃ³rio '/wp-content/plugins/'.
+1. Ative o POP Recarga na sua pÃ£¡gina de Plugins.
 
 **Requerimentos:**
-* É necessário possuir uma conta no POP Recarga e efetuar a instalação do WooCommerce.
+* Ã© necessÃ£¡rio possuir uma conta no POP Recarga e efetuar a instalaÃ£§Ã£o do WooCommerce.
 
-**Configurações**
-1. Acesse 'WooCommerce > Configurações > Finalizar Compra".
+**ConfiguraÃ£§Ã£µes**
+1. Acesse 'WooCommerce > ConfiguraÃ£§Ã£µes > Finalizar Compra".
 1. Escolha a forma de pagamento 'POP Payments'.
-1. Preencha todas as informações.
+1. Preencha todas as informaÃ£§Ã£µes.
 1. Utilize o Gateway Mode como 'SandBox' para efetuar testes.
 
 == Frequently Asked Questions ==
@@ -60,15 +60,15 @@ We will contact you, and after evaluation send the fields client_id and client_s
 No. To use the POP account you need only the mobile device and when required, insert the phone number.
 Every purchase, a validation code will be sent to phone number registered and your customers must confirm receipt.
 
-**FAQ em PortuguÃªs:**
+**FAQ em PortuguÃ£ªs:**
 
 = Como obter meu client_id e client_secret? =
-Vá para http://www.poprecarga.com.br e preencha seus dados para se tornar um parceiro.
-Entraremos em contato. Após avaliação, enviaremos os campos necessários.
+VÃ£¡ para http://www.poprecarga.com.br e preencha seus dados para se tornar um parceiro.
+Entraremos em contato. ApÃ³s avaliaÃ£§Ã£o, enviaremos os campos necessÃ£¡rios.
 
-= Meus clientes precisam ter cartão de crédito? =
-Não. Para usar a conta do POP seus clientes precisarão somente de um aparelho celular e, quando necessário, inserir o número de telefone.
-A cada compra, um código de validação será enviado para o número de telefone registrado e seus clientes devem confirmar o recebimento deste código.
+= Meus clientes precisam ter cartÃ£o de crÃ©dito? =
+NÃ£o. Para usar a conta do POP seus clientes precisarÃ£o somente de um aparelho celular e, quando necessÃ£¡rio, inserir o nÃºmero de telefone.
+A cada compra, um cÃ³digo de validaÃ£§Ã£o serÃ£¡ enviado para o nÃºmero de telefone registrado e seus clientes devem confirmar o recebimento deste cÃ³digo.
 
 == Screenshots ==
 1. `/assets/screenshot1.png`
