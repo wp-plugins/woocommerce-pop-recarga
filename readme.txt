@@ -27,29 +27,29 @@ To use this checkout you need to be authenticated on our platform. Request your 
 - Activate POP Recarga from your Plugins page.
 
 **From WordPress.org:**
-1. Download POP Recarga.
-1. Upload the 'POP Recarga' directory to your '/wp-content/plugins/' directory.
-1. Activate POP Recarga from your Plugins page. 
+- Download POP Recarga.
+- Upload the 'POP Recarga' directory to your '/wp-content/plugins/' directory.
+- Activate POP Recarga from your Plugins page. 
 
 **Instalação e configuração em Português:**
 **No seu WordPress dashboard:**
-1. Acesse 'Plugins > Adicionar Novo'
-1. Pesquise por 'POP Recarga'
-1. Ative o POP Recarga na sua página de Plugins.
+- Acesse 'Plugins > Adicionar Novo'
+- Pesquise por 'POP Recarga'
+- Ative o POP Recarga na sua página de Plugins.
 
 **No WordPress.org:**
-1. Baixe o POP Recarga.
-1. Faça o upload do arquivo 'POP Recarga' para seu diretório '/wp-content/plugins/'.
-1. Ative o POP Recarga na sua página de Plugins.
+- Baixe o POP Recarga.
+- Faça o upload do arquivo 'POP Recarga' para seu diretório '/wp-content/plugins/'.
+- Ative o POP Recarga na sua página de Plugins.
 
 **Requerimentos:**
 * é necessário possuir uma conta no POP Recarga e efetuar a instalação do WooCommerce.
 
 **Configurações**
-1. Acesse 'WooCommerce > Configurações > Finalizar Compra".
-1. Escolha a forma de pagamento 'POP Payments'.
-1. Preencha todas as informações.
-1. Utilize o Gateway Mode como 'SandBox' para efetuar testes.
+- Acesse 'WooCommerce > Configurações > Finalizar Compra".
+- Escolha a forma de pagamento 'POP Payments'.
+- Preencha todas as informações.
+- Utilize o Gateway Mode como 'SandBox' para efetuar testes.
 
 == Frequently Asked Questions ==
 
@@ -72,7 +72,7 @@ Não. Para usar a conta do POP seus clientes precisarão somente de um aparelho 
 A cada compra, um código de validação será enviado para o número de telefone registrado e seus clientes devem confirmar o recebimento deste código.
 
 == Screenshots ==
-1. `/assets/screenshot1.png`
+`/assets/screenshot1.png`
 
 == Changelog ==
 
