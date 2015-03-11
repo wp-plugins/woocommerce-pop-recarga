@@ -1,5 +1,3 @@
-<meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
-
 === Plugin Name ===
 Contributors: Sergio Passos
 Donate link: http://www.poprecarga.com.br/
@@ -15,7 +13,7 @@ Offer the Pop Recarga Payments WooCommerce plugin as online payment option.
 == Description ==
 If you need a new payment method for your website, InDPV offers you the possibility to add POP option for online payment for those that does not have a bank account or credit card. They can purchase credits through points of sale and use this credits in your website. They can purchase credits through points of sale and use this credits in your website. 
 
-**Descrição em Português**
+**Descrição em PortuguÃªs**
 Se você precisa de uma nova forma de pagamento para seu website, o InPDV lhe oferece a possibilidade de adicionar a opção POP para como forma de pagamento online para aqueles que não possuem conta bancária ou cartão de crédito. Eles poderão comprar créditos através de diversos pontos de venda e usar estes créditos em seu website. 
 
 
@@ -32,7 +30,7 @@ To use this checkout you need to be authenticated on our platform. Request your 
 1. Upload the 'POP Recarga' directory to your '/wp-content/plugins/' directory.
 1. Activate POP Recarga from your Plugins page. 
 
-**Instalação e configuração em Português:**
+**Instalação e configuração em PortuguÃªs:**
 **No seu WordPress dashboard:**
 1. Acesse 'Plugins > Adicionar Novo'
 1. Pesquise por 'POP Recarga'
@@ -62,7 +60,7 @@ We will contact you, and after evaluation send the fields client_id and client_s
 No. To use the POP account you need only the mobile device and when required, insert the phone number.
 Every purchase, a validation code will be sent to phone number registered and your customers must confirm receipt.
 
-**FAQ em Português:**
+**FAQ em PortuguÃªs:**
 
 = Como obter meu client_id e client_secret? =
 Vá para http://www.poprecarga.com.br e preencha seus dados para se tornar um parceiro.
