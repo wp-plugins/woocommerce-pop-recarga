@@ -53,10 +53,10 @@ class WC_Pop_Recarga_Ajax {
 		$currency_code = isset( $_POST['currency_code'] ) ? sanitize_text_field( $_POST['currency_code'] ) : '';
 		$payment       = $api->create_payment( $mobile_number, $order_total, $currency_code );
 
-		if ( empty( $payment['id'] ) ) {
+		if ( empty( $payment['payment_id'] ) ) {
 			wp_send_json_error( array( 'message' => $payment['message'] ) );
 		} else {
-			wp_send_json_success( array( 'payment_id' => $payment['id'] ) );
+			wp_send_json_success( array( 'payment_id' => $payment['payment_id'] ) );
 		}
 	}
 }

@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: WooCommerce POP Recarga v2.0.0\n"
+"Project-Id-Version: WooCommerce POP Recarga v2.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2015-04-05 01:32:14+0000\n"
+"PO-Revision-Date: 2015-04-14 01:42:13+0000\n"
 "Last-Translator: Claudio Sanches <contato@claudiosmweb.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -20,22 +20,22 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Textdomain-Support: yes"
 
-#: includes/class-wc-pop-recarga-ajax.php:31
+#: includes/class-wc-pop-recarga-ajax.php:33
 #@ woocommerce-pop-recarga
 msgid "Missing order total."
 msgstr "Faltando o total do pedido."
 
-#: includes/class-wc-pop-recarga-ajax.php:35
+#: includes/class-wc-pop-recarga-ajax.php:37
 #@ woocommerce-pop-recarga
 msgid "Missing mobile number."
 msgstr "Falando o número do celular."
 
-#: includes/class-wc-pop-recarga-ajax.php:40
+#: includes/class-wc-pop-recarga-ajax.php:42
 #@ woocommerce-pop-recarga
 msgid "Invalid mobile number. Make sure the number is starting with the country calling code. For Brazil the number must start with 55."
 msgstr "Número de celular inválido. Tenha certeza que esta digitando o número do celular com o código do país. Para o Brasil o número deve começar com 55."
 
-#: includes/class-wc-pop-recarga-ajax.php:46
+#: includes/class-wc-pop-recarga-ajax.php:48
 #@ woocommerce-pop-recarga
 msgid "An error has occurred while processing your request, please try again or contact us for assistance."
 msgstr "Um erro ocorreu ao processar a sua solicitação, por favor, tente novamente ou entre em contato para obter ajuda."
@@ -45,18 +45,18 @@ msgstr "Um erro ocorreu ao processar a sua solicitação, por favor, tente novam
 msgid "Your phone number is not registered on POP Recarga."
 msgstr "O número do seu celular não esta cadastrado no POP Recarga."
 
-#: includes/class-wc-pop-recarga-api.php:136
+#: includes/class-wc-pop-recarga-api.php:139
 #@ woocommerce-pop-recarga
 msgid "An error has occurred while processing your payment, please try again or contact us for assistance."
 msgstr "Um erro ocorreu ao processar o seu pagamento, por favor, tente novamente ou entre em contato para obter ajuda."
 
-#: includes/class-wc-pop-recarga-api.php:252
+#: includes/class-wc-pop-recarga-api.php:255
 #, php-format
 #@ woocommerce-pop-recarga
 msgid "%s - Payment of %s"
 msgstr "%s - Pagamento de %s"
 
-#: includes/class-wc-pop-recarga-api.php:353
+#: includes/class-wc-pop-recarga-api.php:356
 #@ woocommerce-pop-recarga
 msgid "An error occurred while authorize your payment, make sure your token is correct."
 msgstr "Um erro ocorreu ao autorizar o seu pagamento, tenha certeza que o seu token esta correto."
@@ -259,12 +259,6 @@ msgstr "InPDV"
 msgid "http://www.inpdv.com.br/"
 msgstr "http://www.inpdv.com.br/"
 
-#. translators: plugin header field 'Version'
-#: woocommerce-pop-recarga.php:0
-#@ woocommerce-pop-recarga
-msgid "2.0.0"
-msgstr "2.0.0"
-
 #: woocommerce-pop-recarga.php:133
 #@ woocommerce-pop-recarga
 msgid "Settings"
@@ -279,4 +273,15 @@ msgstr "Você deve preencher o número do seu celular e token."
 #@ woocommerce-pop-recarga
 msgid "WooCommerce POP Recarga Disabled"
 msgstr "WooCommerce POP Recarga esta desativado"
+
+#: includes/class-wc-pop-recarga-api.php:135
+#@ woocommerce-pop-recarga
+msgid "Your POP Recarga account is blocked, do the unlocking process in order to make this payment."
+msgstr "Sua conta do POP Recarga esta bloqueada, faça o processo de desbloqueio para ser capaz de realizar este pagamento."
+
+#. translators: plugin header field 'Version'
+#: woocommerce-pop-recarga.php:0
+#@ woocommerce-pop-recarga
+msgid "2.0.1"
+msgstr "2.0.1"
 

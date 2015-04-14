@@ -131,6 +131,9 @@ class WC_Pop_Recarga_API {
 			case 'notfound' :
 				$message = __( 'Your phone number is not registered on POP Recarga.', 'woocommerce-pop-recarga' );
 				break;
+			case 'lockedcustomer' :
+				$message = __( 'Your POP Recarga account is blocked, do the unlocking process in order to make this payment.', 'woocommerce-pop-recarga' );
+				break;
 
 			default:
 				$message = __( 'An error has occurred while processing your payment, please try again or contact us for assistance.', 'woocommerce-pop-recarga' );
