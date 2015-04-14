@@ -1,0 +1,287 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce POP Recarga v2.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2015-04-14 01:42:13+0000\n"
+"Last-Translator: Claudio Sanches <contato@claudiosmweb.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: Portuguese\n"
+"X-Poedit-Country: BRAZIL\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: includes/class-wc-pop-recarga-ajax.php:33
+#@ woocommerce-pop-recarga
+msgid "Missing order total."
+msgstr "Faltando o total do pedido."
+
+#: includes/class-wc-pop-recarga-ajax.php:37
+#@ woocommerce-pop-recarga
+msgid "Missing mobile number."
+msgstr "Falando o número do celular."
+
+#: includes/class-wc-pop-recarga-ajax.php:42
+#@ woocommerce-pop-recarga
+msgid "Invalid mobile number. Make sure the number is starting with the country calling code. For Brazil the number must start with 55."
+msgstr "Número de celular inválido. Tenha certeza que esta digitando o número do celular com o código do país. Para o Brasil o número deve começar com 55."
+
+#: includes/class-wc-pop-recarga-ajax.php:48
+#@ woocommerce-pop-recarga
+msgid "An error has occurred while processing your request, please try again or contact us for assistance."
+msgstr "Um erro ocorreu ao processar a sua solicitação, por favor, tente novamente ou entre em contato para obter ajuda."
+
+#: includes/class-wc-pop-recarga-api.php:132
+#@ woocommerce-pop-recarga
+msgid "Your phone number is not registered on POP Recarga."
+msgstr "O número do seu celular não esta cadastrado no POP Recarga."
+
+#: includes/class-wc-pop-recarga-api.php:139
+#@ woocommerce-pop-recarga
+msgid "An error has occurred while processing your payment, please try again or contact us for assistance."
+msgstr "Um erro ocorreu ao processar o seu pagamento, por favor, tente novamente ou entre em contato para obter ajuda."
+
+#: includes/class-wc-pop-recarga-api.php:255
+#, php-format
+#@ woocommerce-pop-recarga
+msgid "%s - Payment of %s"
+msgstr "%s - Pagamento de %s"
+
+#: includes/class-wc-pop-recarga-api.php:356
+#@ woocommerce-pop-recarga
+msgid "An error occurred while authorize your payment, make sure your token is correct."
+msgstr "Um erro ocorreu ao autorizar o seu pagamento, tenha certeza que o seu token esta correto."
+
+#: includes/class-wc-pop-recarga-gateway.php:21
+#: includes/class-wc-pop-recarga-gateway.php:102
+#@ woocommerce-pop-recarga
+msgid "POP Recarga"
+msgstr "POP Recarga"
+
+#: includes/class-wc-pop-recarga-gateway.php:22
+#@ woocommerce-pop-recarga
+msgid "POP Payments works by adding a mobile number entry field on the checkout and then sending the details to POP Payments for authorization."
+msgstr "POP Recarga funciona adicionando um campo de número de telefone na finalização do pedido e enviando os detalhes para o POP Recarga autorizar o pagamento."
+
+#: includes/class-wc-pop-recarga-gateway.php:78
+#@ woocommerce-pop-recarga
+msgid "System Status &gt; Logs"
+msgstr "Status do Sistema &gt; Logs"
+
+#: includes/class-wc-pop-recarga-gateway.php:92
+#@ woocommerce-pop-recarga
+msgid "Enable/Disable"
+msgstr "Habilita/Desabilita"
+
+#: includes/class-wc-pop-recarga-gateway.php:94
+#@ woocommerce-pop-recarga
+msgid "Enable POP Recarga"
+msgstr "Ativar POP Recarga"
+
+#: includes/class-wc-pop-recarga-gateway.php:98
+#@ woocommerce-pop-recarga
+msgid "Title"
+msgstr "Título"
+
+#: includes/class-wc-pop-recarga-gateway.php:100
+#@ woocommerce-pop-recarga
+msgid "This controls the title which the user sees during checkout."
+msgstr "Isto controla o título que o usuário vê durante o checkout."
+
+#: includes/class-wc-pop-recarga-gateway.php:105
+#@ woocommerce-pop-recarga
+msgid "Description"
+msgstr "Descrição"
+
+#: includes/class-wc-pop-recarga-gateway.php:107
+#@ woocommerce-pop-recarga
+msgid "This controls the description which the user sees during checkout."
+msgstr "Isso controla a descrição que o usuário vê durante o checkout."
+
+#: includes/class-wc-pop-recarga-gateway.php:108
+#@ woocommerce-pop-recarga
+msgid "Pay by Mobile using POP Recarga."
+msgstr "Paga pelo seu celular usando o POP Recarga."
+
+#: includes/class-wc-pop-recarga-gateway.php:111
+#@ woocommerce-pop-recarga
+msgid "Integration Settings"
+msgstr "Configurações da integração"
+
+#: includes/class-wc-pop-recarga-gateway.php:116
+#@ woocommerce-pop-recarga
+msgid "Gateway Mode"
+msgstr "Método de gateway"
+
+#: includes/class-wc-pop-recarga-gateway.php:118
+#@ woocommerce-pop-recarga
+msgid "Sandbox option can be used to test the payments. Production option should be used to receive real payments."
+msgstr "A opção Sandbox deve ser utilizada para testar pagamentos. A opção Produção deve ser utilizada para receber pagamentos reais."
+
+#: includes/class-wc-pop-recarga-gateway.php:122
+#@ woocommerce-pop-recarga
+msgid "Sandbox"
+msgstr "Sandbox"
+
+#: includes/class-wc-pop-recarga-gateway.php:123
+#@ woocommerce-pop-recarga
+msgid "Production"
+msgstr "Produção"
+
+#: includes/class-wc-pop-recarga-gateway.php:127
+#@ woocommerce-pop-recarga
+msgid "Client ID"
+msgstr "Client ID"
+
+#: includes/class-wc-pop-recarga-gateway.php:129
+#@ woocommerce-pop-recarga
+msgid "Please enter your Client ID. This is needed in order to take payment."
+msgstr "Por favor, digite o seu Cliente ID. Isto é necessário para receber pagamentos."
+
+#: includes/class-wc-pop-recarga-gateway.php:137
+#@ woocommerce-pop-recarga
+msgid "Client Secret"
+msgstr "Client Secret"
+
+#: includes/class-wc-pop-recarga-gateway.php:139
+#@ woocommerce-pop-recarga
+msgid "Please enter your Client Secret. This is needed in order to take payment."
+msgstr "Por favor, digite o seu Cliente Secret. Isto é necessário para receber pagamentos."
+
+#: includes/class-wc-pop-recarga-gateway.php:147
+#@ woocommerce-pop-recarga
+msgid "Gateway Testing"
+msgstr "Teste de Gateway"
+
+#: includes/class-wc-pop-recarga-gateway.php:152
+#@ woocommerce-pop-recarga
+msgid "Debug Log"
+msgstr "Log de depuração"
+
+#: includes/class-wc-pop-recarga-gateway.php:154
+#@ woocommerce-pop-recarga
+msgid "Enable logging"
+msgstr "Habilitar log"
+
+#: includes/class-wc-pop-recarga-gateway.php:156
+#, php-format
+#@ woocommerce-pop-recarga
+msgid "Log POP Recarga events, such as API requests, you can check this log in %s."
+msgstr "Registra de eventos do POP Recarga, como solicitações de API em %s"
+
+#: includes/class-wc-pop-recarga-gateway.php:177
+#@ woocommerce-pop-recarga
+msgid "A valid mobile number is required."
+msgstr "É necessário digitar um número válido de celular."
+
+#: includes/class-wc-pop-recarga-gateway.php:178
+#@ woocommerce-pop-recarga
+msgid "Token is required."
+msgstr "Token é obrigatório."
+
+#: includes/class-wc-pop-recarga-gateway.php:221
+#@ woocommerce-pop-recarga
+msgid "POP Recarga:"
+msgstr "POP Recarga:"
+
+#: includes/class-wc-pop-recarga-gateway.php:269
+#@ woocommerce-pop-recarga
+msgid "POP Recarga: Payment approved."
+msgstr "POP Recarga: Pagamento aprovado."
+
+#: includes/views/html-notice-woocommerce-missing.php:20
+#, php-format
+#@ woocommerce-pop-recarga
+msgid "This depends on the last version of %s to work!"
+msgstr "Depende da última versão do %s para funcionar."
+
+#: includes/views/html-notice-woocommerce-missing.php:20
+#@ woocommerce-pop-recarga
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: templates/payment-form.php:17
+#@ woocommerce-pop-recarga
+msgid "Mobile Number"
+msgstr "Número de celular"
+
+#: templates/payment-form.php:18
+#@ woocommerce-pop-recarga
+msgid "55XXXXXXXXXXX"
+msgstr "55XXXXXXXXXXX"
+
+#: templates/payment-form.php:22
+#@ woocommerce-pop-recarga
+msgid "Receive Pop Recarga Token"
+msgstr "Receber token do POP Recarga"
+
+#: templates/payment-form.php:26
+#@ woocommerce-pop-recarga
+msgid "Token"
+msgstr "Token"
+
+#. translators: plugin header field 'Name'
+#: woocommerce-pop-recarga.php:0
+#@ woocommerce-pop-recarga
+msgid "WooCommerce POP Recarga"
+msgstr "WooCommerce POP Recarga"
+
+#. translators: plugin header field 'PluginURI'
+#: woocommerce-pop-recarga.php:0
+#@ woocommerce-pop-recarga
+msgid "http://www.poprecarga.com.br"
+msgstr "http://www.poprecarga.com.br"
+
+#. translators: plugin header field 'Description'
+#: woocommerce-pop-recarga.php:0
+#@ woocommerce-pop-recarga
+msgid "POP Recarga Payments gateway plugin for WooCommerce."
+msgstr "Gateway de pagamento POP Recarga para WooCommerce."
+
+#. translators: plugin header field 'Author'
+#: woocommerce-pop-recarga.php:0
+#@ woocommerce-pop-recarga
+msgid "InPDV"
+msgstr "InPDV"
+
+#. translators: plugin header field 'AuthorURI'
+#: woocommerce-pop-recarga.php:0
+#@ woocommerce-pop-recarga
+msgid "http://www.inpdv.com.br/"
+msgstr "http://www.inpdv.com.br/"
+
+#: woocommerce-pop-recarga.php:133
+#@ woocommerce-pop-recarga
+msgid "Settings"
+msgstr "Configurações"
+
+#: includes/class-wc-pop-recarga-gateway.php:259
+#@ woocommerce-pop-recarga
+msgid "You must fill your mobile number and token."
+msgstr "Você deve preencher o número do seu celular e token."
+
+#: includes/views/html-notice-woocommerce-missing.php:20
+#@ woocommerce-pop-recarga
+msgid "WooCommerce POP Recarga Disabled"
+msgstr "WooCommerce POP Recarga esta desativado"
+
+#: includes/class-wc-pop-recarga-api.php:135
+#@ woocommerce-pop-recarga
+msgid "Your POP Recarga account is blocked, do the unlocking process in order to make this payment."
+msgstr "Sua conta do POP Recarga esta bloqueada, faça o processo de desbloqueio para ser capaz de realizar este pagamento."
+
+#. translators: plugin header field 'Version'
+#: woocommerce-pop-recarga.php:0
+#@ woocommerce-pop-recarga
+msgid "2.0.1"
+msgstr "2.0.1"
+
