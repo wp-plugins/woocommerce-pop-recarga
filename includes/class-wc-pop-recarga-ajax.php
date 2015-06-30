@@ -33,13 +33,17 @@ class WC_Pop_Recarga_Ajax {
 			wp_send_json_error( array( 'message' => __( 'Missing order total.', 'woocommerce-pop-recarga' ) ) );
 		}
 
+		if ( empty( $_POST['code'] ) ) {
+			wp_send_json_error( array( 'message' => __( 'Missing mobile number code.', 'woocommerce-pop-recarga' ) ) );
+		}
+
 		if ( empty( $_POST['number'] ) ) {
 			wp_send_json_error( array( 'message' => __( 'Missing mobile number.', 'woocommerce-pop-recarga' ) ) );
 		}
 
-		$mobile_number = preg_replace( '([^0-9])', '', sanitize_text_field( $_POST['number'] ) );
-		if ( 12 != strlen( $mobile_number ) && 13 != strlen( $mobile_number ) ) {
-			wp_send_json_error( array( 'message' => __( 'Invalid mobile number. Make sure the number is starting with the country calling code. For Brazil the number must start with 55.', 'woocommerce-pop-recarga' ) ) );
+		$mobile_number = preg_replace( '([^0-9])', '', sanitize_text_field( $_POST['code'] . $_POST['number'] ) );
+		if ( 8 != strlen( $mobile_number ) && 9 != strlen( $mobile_number ) ) {
+			wp_send_json_error( array( 'message' => __( 'Invalid mobile number. Make sure you are entering your mobile phone number with area code (DDD) and the correct number of digits (8 or 9 digits).' ) ) );
 		}
 
 		$options = get_option( 'woocommerce_pop_payments_settings', array() );

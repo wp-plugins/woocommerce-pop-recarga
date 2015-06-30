@@ -128,14 +128,30 @@ class WC_Pop_Recarga_API {
 		$code = strtolower( $code );
 
 		switch ( $code ) {
-			case 'notfound' :
-				$message = __( 'Your phone number is not registered on POP Recarga.', 'woocommerce-pop-recarga' );
+			case 'customerinactive' :
+				$message = __( 'Your POP Recarga account is not currently active, recharge your account and try again.', 'woocommerce-pop-recarga' );
+				break;
+			case 'expiredtoken' :
+				$message = __( 'Your POP Recarga access password is expired, please try again.', 'woocommerce-pop-recarga' );
+				break;
+			case 'insufficientbalance' :
+				$message = __( 'Your don\'t have enough credits in your POP Recarga account, please add more credits and try again.', 'woocommerce-pop-recarga' );
+				break;
+			case 'invalidtoken' :
+			case 'maxfailedtokencountreached' :
+				$message = __( 'Your POP Recarga access password is invalid, please generate another password and try again.', 'woocommerce-pop-recarga' );
 				break;
 			case 'lockedcustomer' :
 				$message = __( 'Your POP Recarga account is blocked, do the unlocking process in order to make this payment.', 'woocommerce-pop-recarga' );
 				break;
+			case 'notfound' :
+				$message = __( 'The number has informed do not have credits on POP Recarga. Make sure the number is correct or add credits to your account to try again.', 'woocommerce-pop-recarga' );
+				break;
+			case 'transactionalreadyauthorized' :
+				$message = __( 'This transaction already has been authorized, please contact us for assistance.', 'woocommerce-pop-recarga' );
+				break;
 
-			default:
+			default :
 				$message = __( 'An error has occurred while processing your payment, please try again or contact us for assistance.', 'woocommerce-pop-recarga' );
 				break;
 		}
@@ -244,11 +260,11 @@ class WC_Pop_Recarga_API {
 		}
 
 		if ( 'yes' == $this->debug ) {
-			$this->log->add( 'pop_payments', 'Creating payment for: +' . $mobile_number . '. Total: ' . $order_total . ' ' . $currency_code . '...' );
+			$this->log->add( 'pop_payments', 'Creating payment for: +55' . $mobile_number . '. Total: ' . $order_total . ' ' . $currency_code . '...' );
 		}
 
 		$data = json_encode( array(
-			'identifier'  => '+' . $mobile_number,
+			'identifier'  => '+55' . $mobile_number,
 			'transaction' => array(
 				'amount'       => $order_total,
 				'currencyCode' => $currency_code,
@@ -353,7 +369,7 @@ class WC_Pop_Recarga_API {
 		if ( ! $authorized ) {
 			return array(
 				'success' => false,
-				'message' => __( 'An error occurred while authorize your payment, make sure your token is correct.', 'woocommerce-pop-recarga' )
+				'message' => __( 'An error occurred while authorize your payment, make sure you enter the correct authorization password and try again.', 'woocommerce-pop-recarga' )
 			);
 		}
 

@@ -173,7 +173,7 @@ class WC_Pop_Recarga_Gateway extends WC_Payment_Gateway {
 					'security'            => wp_create_nonce( 'wc_pop_recarga_request_token' ),
 					'currency_code'       => get_woocommerce_currency(),
 					'i18n_missing_number' => __( 'A valid mobile number is required.', 'woocommerce-pop-recarga' ),
-					'i18n_missing_token'  => __( 'Token is required.', 'woocommerce-pop-recarga' ),
+					'i18n_missing_token'  => __( 'Password is required.', 'woocommerce-pop-recarga' ),
 				)
 			);
 		}
